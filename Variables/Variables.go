@@ -17,12 +17,24 @@ func main() {
 	y2 := "kp"
 	fmt.Println(x2)
 	fmt.Println(y2)
-	//Multiple variable decleration
+	//Multiple variable decleration - 1
 	car, cost := "car", 6666
 	fmt.Println(car, cost)
 	car1, cost1 := "carff", 7777
 	//we need to user variables once it will decleared
 	//we can ignore by using _ (blank identifier)
 	_, _ = car1, cost1
+	//Multiple variable decleration - 2
+	var (
+		sallary   float64 = 55.4
+		firstname string  = "aditya"
+		gender    bool    = true
+	)
+	fmt.Println(sallary)
+	fmt.Println(firstname)
+	fmt.Println(gender)
+	//Multiple variable decleration - 3
+	var a, b, c int = 1, 2, 3
+	fmt.Println(a, b, c)
 
 }
