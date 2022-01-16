@@ -37,4 +37,10 @@ func main() {
 	var a, b, c int = 1, 2, 3
 	fmt.Println(a, b, c)
 
+	//Swap values of two variables
+	var n1, n2 int = 22, 55
+	n1, n2 = n2, n1
+	fmt.Print(n1)
+	fmt.Println(n2)
+
 }
