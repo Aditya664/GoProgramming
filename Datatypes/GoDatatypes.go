@@ -7,7 +7,7 @@ func main() {
 	there are three types:
 		1.predeclared types
 		2.introduced types
-		3.comosite types
+		3.composite types
 	Predeclared/Build in types
 	* Numeric types
 		-- int8,int16,int32,int64:Used to represent signed integer
