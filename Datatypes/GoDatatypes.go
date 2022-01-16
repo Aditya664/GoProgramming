@@ -22,7 +22,13 @@ func main() {
 	Comosite types
 	*Array and Slice Type
 		-- Array is collection of elements of same type.
-		-- Array has fixed length but slice is dynamuic length*/
+		-- Array has fixed length but slice is dynamuic length.
+	*Map Type
+		-- Map is an unordered group of one type,indexed by a set of unique keys of another type.
+		-- A map in GO is similar to dictionary in python.
+	*Struct type
+		-- A Struct is a sequence of named elements,called fields,each of which has a name and type.
+		-- A structure can be compared to class concept in OOP*/
 
 	//code
 	//int8
@@ -34,6 +40,26 @@ func main() {
 
 	//float64
 	var f1, f2, f3 float64 = 1.1, -20.0, 5.0
-	fmt.Printf("%T %T %T", f1, f2, f3)
+	fmt.Printf("%T %T %T\n", f1, f2, f3)
+
+	//String
+	var s1 string = "ffd"
+	fmt.Println("%T\n", s1)
+
+	//Array
+	var numbers = [4]int{2, 4, -2, 100}
+	fmt.Printf("%T\n", numbers)
+
+	//slice
+	var city = []string{"ff", "dss", "dff"}
+	fmt.Printf("%T\n", city)
+
+	//Struct type
+	type car struct {
+		name string
+		age  int
+	}
+	var you car
+	fmt.Printf(you.name)
 
 }
