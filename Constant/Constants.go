@@ -49,5 +49,9 @@ func main() {
 	//3.we cannot use variable to initialize constant.
 	//t := 55
 	//const tc = t
+	//4.
+	const l1 = len("sddsdsd")
+	//here len is build in function thats why we declear id
+	//but we cannot use math function because it is runtime function
 
 }
