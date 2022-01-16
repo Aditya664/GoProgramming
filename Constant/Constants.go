@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//In golang we use the term of constant to represent fixed values.
@@ -35,4 +37,14 @@ func main() {
 	fmt.Println(min4, min5, min6)
 	// in this case we get -222 -222 -222 but How
 	//min5 and min6 get type value from priveous value
+
+	//Rules in constant
+	//1.we cannot change the value of constant
+	const temp int = 100
+	//temp = 55
+	//2.we cannot initiate a constant at Runtime
+	//const power  = math.Pow(2,3)
+	//it gives error because math funcyion runs at runtime.
+	//we know we cannot initiate constant at runtime
+
 }
