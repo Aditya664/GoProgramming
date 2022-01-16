@@ -1,4 +1,6 @@
-package IOTA
+package main
+
+import "fmt"
 
 func main() {
 	//What is IOTA?
@@ -25,4 +27,14 @@ func main() {
 	//d = 0
 	//e = 1
 	//f = 2
+
+	//if we need to skip any value we use _(blank identifier)
+	const (
+		m = iota
+		_
+		o
+		p
+	)
+	fmt.Println(m, o, p)
+	//here we want to skip 1 we use _
 }
