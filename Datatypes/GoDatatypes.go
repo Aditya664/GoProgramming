@@ -20,16 +20,16 @@ func main() {
 		-- Unicode chars written enclosed by double-quotes
 		-- A String value is a sequence of bytes.
 	Comosite types
-	*Array and Slice Type
+	* Array and Slice Type
 		-- Array is collection of elements of same type.
 		-- Array has fixed length but slice is dynamuic length.
-	*Map Type
+	* Map Type
 		-- Map is an unordered group of one type,indexed by a set of unique keys of another type.
 		-- A map in GO is similar to dictionary in python.
-	*Struct type
+	* Struct type
 		-- A Struct is a sequence of named elements,called fields,each of which has a name and type.
 		-- A structure can be compared to class concept in OOP.
-	*Pointer type
+	* Pointer type
 		-- A Pointer is a variable that stores the memory address of another variable.
 		-- the value of uninitialized Pointer is nil. */
 
