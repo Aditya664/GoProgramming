@@ -65,4 +65,9 @@ func main() {
 	var you car
 	fmt.Printf(you.name)
 
+	//Pointer Type
+	var x int = 22
+	ptr := &x
+	fmt.Printf("Ptr is of type %T with the value if %v\n", ptr, ptr)
+
 }
