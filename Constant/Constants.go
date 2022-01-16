@@ -19,4 +19,20 @@ func main() {
 	//const a int= 5
 	//const b int = 0
 	//fmt.Println(a / b)
+
+	const (
+		min1 = -222
+		min2 = 3333
+		min3 = 4544
+	)
+	fmt.Println(min1, min2, min3)
+	//we get -222 3333 4544 this output
+	const (
+		min4 = -222
+		min5
+		min6
+	)
+	fmt.Println(min4, min5, min6)
+	// in this case we get -222 -222 -222 but How
+	//min5 and min6 get type value from priveous value
 }
