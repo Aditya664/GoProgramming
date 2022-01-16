@@ -46,5 +46,8 @@ func main() {
 	//const power  = math.Pow(2,3)
 	//it gives error because math funcyion runs at runtime.
 	//we know we cannot initiate constant at runtime
+	//3.we cannot use variable to initialize constant.
+	//t := 55
+	//const tc = t
 
 }
