@@ -28,7 +28,10 @@ func main() {
 		-- A map in GO is similar to dictionary in python.
 	*Struct type
 		-- A Struct is a sequence of named elements,called fields,each of which has a name and type.
-		-- A structure can be compared to class concept in OOP*/
+		-- A structure can be compared to class concept in OOP.
+	*Pointer type
+		-- A Pointer is a variable that stores the memory address of another variable.
+		-- the value of uninitialized Pointer is nil. */
 
 	//code
 	//int8
