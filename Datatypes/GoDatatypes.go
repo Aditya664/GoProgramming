@@ -12,9 +12,17 @@ func main() {
 	* Numeric types
 		-- int8,int16,int32,int64:Used to represent signed integer
 		-- uint8,uint16,uint32,uint64:Used to represent unsigned (positive) integer.
-		--float32,float64: zero before the decimal point seperator can be omitted
-		--byte(alias for uint8)
-		--*/
+		-- float32,float64: zero before the decimal point seperator can be omitted
+		-- byte(alias for uint8)
+	* Bool Type
+		-- Pre-defined constants true and false.
+	* String Type
+		-- Unicode chars written enclosed by double-quotes
+		-- A String value is a sequence of bytes.
+	Comosite types
+	*Array and Slice Type
+		-- Array is collection of elements of same type.
+		-- Array has fixed length but slice is dynamuic length*/
 
 	//code
 	//int8
