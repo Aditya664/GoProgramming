@@ -20,4 +20,5 @@ func main() {
 	//2.Printf
 	fmt.Printf("My age is %d\n", 21)
 	fmt.Printf("x is %d and y is %f", 2, 55.55)
+	//we can add new line by using \n as similler to c and cpp
 }
